@@ -2,17 +2,21 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/9ac257ae94.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" media="screen" href="mobile.css" />
 
     <title>Reservia</title>
 </head>
+
 <!--début de page d'acceuil-->
 
 <body>
     <div id="block_page" >
     
         <!--header-->
+
         <header>
             <div id="bloc_logo">
                 <img id="logo" src="images/logo/Reservia.svg" alt="logo_reservia" />
@@ -25,5 +29,97 @@
             </nav>
             <p><a id="inscription" href="#">S'inscrire</a></p>
         </header>
+
+        <!--fin header-->
+
+<main>
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <p>En plein centre ville ou en pleine nature</p>
+
+<!--section de recherche-->
+
+    <section id="recherche">
+
+        <div id="champ_de_saisie">
+            <form method="POST" action="#">       
+                <i class="fas fa-map-marker-alt"></i>
+                <input id="lieu_saisi" type="text" name="lieu_saisi" maxlength=35 placeholder="Marseille, France"/>
+                <input id="rechercher" type="submit" value="Rechercher"/>
+                <input id="loupe" type="submit" value="&#xf002"/>
+            </form>
+        </div>
+        
+        <div class="filtres">
+            <h2>Filtres</h2>
+            <div class="boutons_filtres">
+                <button class="cellule"><i class="fa-solid fa-money-bill-wave"></i><span class="texte_filtre">Economique</span></button>
+                <button class="cellule"><i class="fa-solid fa-child"></i><span class="texte_filtre">Familial</span></button>
+                <button class="cellule"><i class="fa-solid fa-heart"></i><span class="texte_filtre">Romantique</span></button>
+                <button class="cellule"><i class="fa-solid fa-dog"></i><span class="texte_filtre">Animaux autorisé</span></button>
+            </div>
+        </div>
+        <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+    </section>
+
+<!--fin section de recherche-->
+
+<!--section hébergements-->
+
+    <div id="hebergements">
+
+<!--sous-section hébergements proposé-->
+
+        <section id="hebergements_proposes">
+            <h2>Hébergements à Marseille</h2>
+            <div class="fiches_hebergements_proposes">
+                <a class="cartes_hotels" href="#">
+                    <div class="carte">
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre_auberge_la_Cannebiere">
+                        <h3>Auberge la Cannebiere</h3>
+                        <p>Nuit à partir de <strong>25€</strong></p>
+                        <div class="rangee_etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star etoile_manquante"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="cartes_hotels" href="#">
+                    <div class="carte">
+                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre_hotel_du_port">
+                        <h3>Hôtel du port</h3>
+                        <p>Nuit à partir de <strong>52€</strong></p>
+                        <div class="rangee_etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="cartes_hotels" href="#">
+                    <div class="carte">
+                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
+                        <h3>Hôtel Les mouettes</h3>
+                        <p>Nuit à partir de <strong>76€</strong></p>
+                        <div class="rangee_etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star etoile_manquante"></i>
+                        </div>
+                    </div>
+                </a>
+
+                
+
+        </section>
+</main>
 </body>
 </html>
