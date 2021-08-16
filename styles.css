@@ -57,6 +57,25 @@ li{
     margin-bottom: 25px;
 }
 
+/*apparence dynamique des liens*/
+
+a:hover{
+    color: #0065FC;
+}
+
+a:active{
+    color: #0065FC;
+}
+
+a:focus{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+
+/*fin apparence dynamique des liens*/
+
+
 
 
 
