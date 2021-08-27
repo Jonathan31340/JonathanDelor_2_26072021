@@ -350,3 +350,31 @@ i.fas.fa-info
 
 /*fin apparence statique boutons filtres*/
 
+/* animation boutons filtres*/
+
+.cellule:hover
+{
+    cursor: pointer;
+    background-color: #DEEBFF;
+}
+
+.cellule:active
+{
+    cursor: pointer;
+    background-color: #DEEBFF;
+    border: hidden;
+}
+
+.cellule:focus
+{
+    cursor: pointer;
+    background-color: #DEEBFF;
+    border: hidden;
+}
+
+/*fin animation boutons filtres*/
+
+/*fin filtres*/
+
+/*fin barre de recherche*/
+
