@@ -378,3 +378,18 @@ i.fas.fa-info
 
 /*fin barre de recherche*/
 
+#hebergements
+{
+display: flex;
+margin: 40px 35px 40px 40px;
+}
+
+/*hébergements proposes*/
+
+#hebergements_proposes
+{
+padding: 20px;
+margin-right: 30px;
+background-color: #F2F2F2;
+border-radius: 1.5em;
+}
