@@ -281,4 +281,72 @@ display: flex;
 align-items: center;
 }
 
+/*apparence statique boutons filtres*/
+
+.boutons_filtres
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.cellule
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    font-family: "raleway", Arial, sans-serif;
+    font-weight: bold;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    background-color: white;
+    border-radius: 10em 10em 10em 10em;
+    border: #F2F2F2 solid 2px;
+    padding: 0px 16px 0px 0px ;
+}
+
+i.fas.fa-heart, i.fas.fa-dog
+{
+    font-size: 1.3em;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+    border-radius: 10em 10em 10em 10em;
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+  
+i.fas.fa-money-bill-wave
+{
+    font-size: 1.2em;
+    padding: 0.9em 0.8em 0.9em 0.8em;
+    color:#0065FC;
+    border-radius: 10em 10em 10em 10em;
+    background-color: #DEEBFF;
+}
+
+i.fas.fa-child
+{
+    font-size: 1.3em;
+    padding: 0.8em 0.9em 0.8em 0.9em;
+    border-radius: 10em 10em 10em 10em;
+    color:#0065FC;
+    background-color: #DEEBFF;
+}
+
+i.fas.fa-info
+{   
+    float: left;
+    color:#0065FC;
+    font-size: 10px;
+    border-radius: 50%;
+    border: 2px solid  #F2F2F2; 
+    padding: 10px 15px 12px 15px;
+    margin-right: 20px;
+}
+
+.texte_filtre
+{
+    padding-left: 0.8em;
+}
+
+/*fin apparence statique boutons filtres*/
 
