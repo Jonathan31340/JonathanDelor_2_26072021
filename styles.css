@@ -403,3 +403,175 @@ i.fas.fa-info
     justify-content: space-evenly;
 }
 
+/*apparence statique cartes hotels */
+
+.cartes_hotels
+{
+    background-color: white;
+    border-radius: 25px;
+    height: 210px;
+    width: 246px;
+    box-shadow: 0 0 30px #dddddd;
+    margin: 15px;
+   }
+
+.cartes_hotels img
+{
+    height: 60%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    border: white solid 5px;
+}
+
+.cartes_hotels .carte
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cartes_hotels h3
+{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0.4em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cartes_hotels p
+{
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0.4em;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.rangee_etoiles
+{
+    margin-bottom: 0;
+    margin-top: 0.4em;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #0065FC;
+}
+
+/*fin apparence statique cartes hotels*/
+
+/*apparence dynamique des cartes hotels*/
+
+.cartes_hotels:hover
+{
+    transform: scale(1);
+}
+
+.cartes_hotels:active
+{
+    opacity: 0.2;
+}
+
+.cartes_hotels:focus
+{
+    filter:grayscale(1);
+}
+
+/*fin hebergements proposes*/
+
+/*hebergements les plus populaires*/
+
+#hebergements_populaires
+{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;  
+}
+
+.titre_avec_icone
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+}
+
+.titre_avec_icone p
+{
+    padding-bottom: 0px;
+}
+
+.fas.fa-chart-line
+{
+    font-size: 28px;    
+}
+
+/* apparence statique cartes hotels populaires */
+
+
+.cartes_hotels_populaires
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    background-color: white;
+    border-radius: 25px;
+    height: 144px;
+    width: 344px;
+    box-shadow: 0 0 30px #dddddd;
+}
+
+.cartes_hotels_populaires .carte
+{
+    display: flex;
+    height: 100%;
+}
+
+.cartes_hotels_populaires img
+{
+    width: 40%;
+    object-fit: cover;
+    border: white solid 5px;
+    border-radius: 20px 0 0 20px;   
+}
+
+.nom_hotel_populaire
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cartes_hotels_populaires h3
+{
+    font-size: 16px;
+    margin: 0;
+    margin-top: 0.4em;
+}
+
+.cartes_hotels_populaires p
+{
+    padding: 0;
+    margin: 0;
+    margin-top: -1.5em;
+    font-size: 14px;
+}
+
+.rangee_etoiles_populaire
+{
+    margin: 0;
+    margin-top: 0.4em;
+    font-size: 12px;
+    color: #0065FC;
+}
