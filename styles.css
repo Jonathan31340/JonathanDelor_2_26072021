@@ -625,11 +625,11 @@ main
 }
 /* apparence statique cartes activites */
 
-#bloc_activites
+#bloc_fiches_activites
 {
     height: 340px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .cartes_activites
 {
@@ -717,7 +717,7 @@ main
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content: space-between;
+    align-content: space-around;
 }
 
 #bloc_act2
@@ -727,7 +727,7 @@ main
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content: space-between;
+    align-content: space-around;
 }
 
 /*apparence dynamique des cartes activites*/
@@ -776,135 +776,3 @@ footer li
 
 /*fin footer*/
 
-/*tablettes mode portrait et paysage et petits portables (jusqu'à 1076px)*/
-
-@media screen and (min-width:768px) and (max-width: 1076px) 
-
-{
-    .filtres
-    {
-    flex-wrap: wrap;   
-    }
-
-    .boutons_filtres
-    {
-        flex-wrap: wrap;
-    }
-    
-    #hebergements
-    {
-        flex-direction: column-reverse;
-    }
-
-    #hebergements_proposes
-    {
-        margin-right: 0;
-        margin-block-end: 15px;
-    }
-
-    #hebergements_proposes h4
-    {
-        padding-left: 25px;
-    }
-
-    .cartes_hotels{
-        width:40%;
-    }
-    
-    .cartes_hotels:hover
-    {
-        transform: scale(1);
-    }
-        
-    .bloc_fiches_populaires
-    {
-        display: flex;
-        justify-content: space-around;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .cartes_hotels_populaires
-    {
-        width: 240px;
-        margin: 0.3em;
-    }
-
-    .nom_hotel_populaire
-    {
-        margin-left: 10px;
-        margin-right: 10px;                                       
-    }
-
-    .cartes_hotels_populaires h3
-    {
-        font-size: 0.9em;
-    }
-
-    .cartes_hotels_populaires p
-    {
-        font-size: 0.7em;
-    }
-
-    .rangee_etoiles_populaire
-    {
-        font-size: 0.7em;
-    }   
-
-    .cartes_hotels_populaires:hover
-    {
-        transform: scale(1);
-    }
-    
-    #bloc_fiches_activites
-    {
-        height: 340px;
-    }
-    .cartes_activites h3
-    {
-        margin-left: 0.9em;
-        font-size: 0.8em;   
-    }
-
-    .cartes_activites:hover
-    {
-        transform: scale(1);
-    }
-
-    .bloc_footer
-    {
-        padding-right: 50px;
-    }
-}
-
-/*portables et petits écrans (jusqu'à 1136px)*/
-
-@media screen and (min-width:1077px) and (max-width: 1136px) 
-{  
-    .cartes_hotels
-    {
-        width: 216px;
-    }
-
-    .cartes_hotels_populaires
-    {
-        height: 190px;
-        margin-block-end: 3.5em;
-    }
-}
-
-/* grands portables et moyens écrans (jusqu'à 1440px) */
-
-@media screen and (min-width:1137px) and (max-width: 1440px)
-{ 
-    #bloc_page
-    {
-        max-width: 1440px;
-    }
-
-    .cartes_hotels_populaires
-    {
-        height: 180px;
-        margin-block-end: 3em;
-    }
-}
